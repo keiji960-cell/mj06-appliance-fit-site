@@ -1,0 +1,14 @@
+{
+  "category": "미니냉장고",
+  "brand": "삼성",
+  "model": "RR09R1000WW",
+  "doorType": "1도어 (냉장전용)",
+  "capacityLiters": 86,
+  "dimensions": { "widthMm": 479, "heightMm": 842, "depthMm": 446 },
+  "installClearanceNote": "공식 스펙 페이지에 설치 여백 수치는 별도 기재되지 않음 — 방열을 위해 상단·후면·측면에 최소 5~10cm 여유 공간을 두는 것이 일반적으로 권장되며, 정확한 수치는 제품 사용설명서를 확인해야 함.",
+  "source": {
+    "name": "삼성전자 공식 지원 페이지",
+    "url": "https://www.samsung.com/sec/support/model/RR09R1000WW/",
+    "asOfDate": "2026-07-25"
+  }
+}

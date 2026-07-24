@@ -1,0 +1,57 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+
+export async function getStaticPaths() {
+  const slugify = (brand: string, model: string) =>
+    `${brand}-${model}`.toLowerCase().replace(/[^\w가-힣]+/g, '-').replace(/^-+|-+$/g, '');
+  const appliances = await getCollection('appliances');
+  return appliances.map((item) => ({
+    params: { slug: slugify(item.data.brand, item.data.model) },
+    props: { item },
+  }));
+}
+
+interface Props {
+  item: CollectionEntry<'appliances'>;
+}
+
+const { item } = Astro.props;
+const { data } = item;
+const coupangSearchUrl = `https://www.coupang.com/np/search?q=${encodeURIComponent(`${data.brand} ${data.model}`)}`;
+---
+<Layout
+  title={`${data.brand} ${data.model} 규격 — ${data.dimensions.widthMm}×${data.dimensions.depthMm}×${data.dimensions.heightMm}mm`}
+  description={`${data.brand} ${data.model} (${data.capacityLiters}L)의 정확한 가로×깊이×높이 규격과 설치 여백 안내입니다.`}
+  type="article"
+>
+  <article>
+    <p class="article-meta">조회일 {data.source.asOfDate}</p>
+    <h1>{data.brand} {data.model}</h1>
+    <p>{data.capacityLiters}L · {data.doorType}</p>
+
+    <div class="table-scroll">
+      <table>
+        <tbody>
+          <tr><th>폭 (Width)</th><td>{data.dimensions.widthMm}mm</td></tr>
+          <tr><th>깊이 (Depth)</th><td>{data.dimensions.depthMm}mm</td></tr>
+          <tr><th>높이 (Height)</th><td>{data.dimensions.heightMm}mm</td></tr>
+          <tr><th>용량</th><td>{data.capacityLiters}L</td></tr>
+          <tr><th>도어 구성</th><td>{data.doorType}</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout">
+      <p><strong>설치 여백 안내:</strong> {data.installClearanceNote}</p>
+    </div>
+
+    <div class="coupang-cta">
+      <a href={coupangSearchUrl} target="_blank" rel="noopener nofollow sponsored">쿠팡에서 {data.brand} {data.model} 검색하기 →</a>
+    </div>
+
+    <p class="disclaimer">
+      규격 출처: <a href={data.source.url} target="_blank" rel="noopener">{data.source.name}</a> (조회일 {data.source.asOfDate}). 모델 단종·사양 변경 시 최신 정보와 다를 수 있으니 구매 전 반드시 출처 링크에서 재확인하세요. 위 쿠팡 링크는 검색 결과로 연결되는 링크이며 특정 판매자·가격을 보증하지 않습니다. 오류를 발견하셨다면 <a href="mailto:keiji960+mj06@gmail.com">keiji960+mj06@gmail.com</a>으로 알려주세요.
+    </p>
+  </article>
+</Layout>
