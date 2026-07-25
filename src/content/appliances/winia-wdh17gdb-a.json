@@ -1,0 +1,15 @@
+{
+  "category": "제습기",
+  "brand": "위니아",
+  "model": "WDH17GDB(A)",
+  "typeLabel": "제습기",
+  "capacityValue": 17,
+  "capacityUnit": "L/일",
+  "dimensions": { "widthMm": 390, "heightMm": 665, "depthMm": 256 },
+  "installClearanceNote": "공식 페이지에 설치 여백 수치는 별도 기재되지 않음 — 흡배기구가 막히지 않도록 벽면·가구에서 일정 거리 이상 띄워 설치하는 것이 일반적으로 권장되며, 정확한 이격거리는 제품 사용설명서를 확인해야 함.",
+  "source": {
+    "name": "위니아 공식 몰",
+    "url": "https://www.winia.com/product/view?PRODUCT_SEQ=3757&SEARCH_VALUE=WDH17GDB(A)",
+    "asOfDate": "2026-07-25"
+  }
+}

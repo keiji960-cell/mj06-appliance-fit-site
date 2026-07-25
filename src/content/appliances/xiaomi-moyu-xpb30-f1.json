@@ -1,0 +1,15 @@
+{
+  "category": "소형세탁기",
+  "brand": "샤오미 (MOYU)",
+  "model": "XPB30-F1",
+  "typeLabel": "접이식 초소형 (단독 설치형, 사용하지 않을 때 접어서 보관 가능)",
+  "capacityValue": 9,
+  "capacityUnit": "L",
+  "dimensions": { "widthMm": 292, "heightMm": 288, "depthMm": 292 },
+  "installClearanceNote": "다나와 스펙 페이지에 설치 여백 수치는 별도 기재되지 않음 — 급수·배수 호스 연결 공간이 별도로 필요함. 이 제품은 접이식 구조라 위 규격은 펼친 상태 기준이며, 보관 시에는 더 작아짐. 정확한 규격은 제품 사용설명서를 확인해야 함.",
+  "source": {
+    "name": "다나와 가격비교 (해외구매, 제조사 스펙 게시)",
+    "url": "https://prod.danawa.com/info/?pcode=9934047",
+    "asOfDate": "2026-07-25"
+  }
+}
