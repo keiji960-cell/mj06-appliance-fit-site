@@ -1,0 +1,14 @@
+{
+  "category": "미니냉장고",
+  "brand": "쿠잉 (씨엔컴퍼니)",
+  "model": "REF-087CNW",
+  "doorType": "2도어 (상냉동·하냉장)",
+  "capacityLiters": 80,
+  "dimensions": { "widthMm": 445, "heightMm": 831, "depthMm": 490 },
+  "installClearanceNote": "출처 페이지에 설치 여백 수치는 별도 기재되지 않음 — 방열을 위해 상단·후면·측면에 최소 5~10cm 여유 공간을 두는 것이 일반적으로 권장되며, 정확한 수치는 제품 사용설명서를 확인해야 함. (냉장실 55L + 냉동실 25L 구성)",
+  "source": {
+    "name": "노써치 제품 스펙 페이지",
+    "url": "https://nosearch.com/product/kitchen/mini_refrigerator/detail/REF-087CNW",
+    "asOfDate": "2026-07-25"
+  }
+}

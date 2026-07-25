@@ -1,0 +1,14 @@
+{
+  "category": "미니냉장고",
+  "brand": "삼성",
+  "model": "RT19T3007GS",
+  "doorType": "1도어 (냉장+냉동 겸용)",
+  "capacityLiters": 203,
+  "dimensions": { "widthMm": 555, "heightMm": 1445, "depthMm": 637 },
+  "installClearanceNote": "공식 지원 페이지에 설치 여백 수치는 별도 기재되지 않음 — 방열을 위해 상단·후면·측면에 최소 5~10cm 여유 공간을 두는 것이 일반적으로 권장되며, 정확한 수치는 제품 사용설명서를 확인해야 함. (냉장실 150L + 냉동실 53L 구성)",
+  "source": {
+    "name": "삼성전자 공식 지원 페이지",
+    "url": "https://www.samsung.com/sec/support/model/RT19T3007GS/",
+    "asOfDate": "2026-07-25"
+  }
+}
