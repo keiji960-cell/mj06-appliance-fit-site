@@ -207,7 +207,8 @@ p {
   margin-bottom: 0.3em;
 }
 
-.fit-field input {
+.fit-field input,
+.fit-field select {
   width: 100%;
   padding: 0.6em 0.7em;
   border: 1px solid var(--color-border);

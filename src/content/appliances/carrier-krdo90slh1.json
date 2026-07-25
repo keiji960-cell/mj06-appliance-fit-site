@@ -2,9 +2,14 @@
   "category": "미니냉장고",
   "brand": "캐리어 (클라윈드)",
   "model": "KRDO90SLH1",
-  "doorType": "1도어 (냉장전용)",
-  "capacityLiters": 90,
-  "dimensions": { "widthMm": 475, "heightMm": 850, "depthMm": 445 },
+  "typeLabel": "1도어 (냉장전용)",
+  "capacityValue": 90,
+  "capacityUnit": "L",
+  "dimensions": {
+    "widthMm": 475,
+    "heightMm": 850,
+    "depthMm": 445
+  },
   "installClearanceNote": "출처 페이지에 설치 여백 수치는 별도 기재되지 않음 — 방열을 위해 상단·후면·측면에 최소 50~100mm 여유 공간을 두는 것이 일반적으로 권장되며, 정확한 수치는 제품 사용설명서를 확인해야 함. 규격은 서로 다른 두 출처에서 동일하게 확인됨.",
   "source": {
     "name": "판매처 상품정보 (제조사 스펙 게시, 2개 출처 교차확인)",

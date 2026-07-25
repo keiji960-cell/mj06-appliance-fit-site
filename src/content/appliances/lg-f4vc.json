@@ -1,0 +1,15 @@
+{
+  "category": "소형세탁기",
+  "brand": "LG",
+  "model": "F4VC",
+  "typeLabel": "미니워시 (하단 설치 전용 — 단독으로 바닥에 놓는 제품이 아니라 세탁기·건조기 하단에 결합 설치)",
+  "capacityValue": 4,
+  "capacityUnit": "kg",
+  "dimensions": { "widthMm": 700, "heightMm": 360, "depthMm": 775 },
+  "installClearanceNote": "이 제품은 폭·깊이가 크고 높이가 낮은 서랍형 구조로, 반드시 호환되는 세탁기·건조기 하단에 결합해서만 설치할 수 있습니다(단독 바닥 설치 불가). 다나와 스펙 페이지에 별도 설치 여백 수치는 없으며, 정확한 결합 규격은 제품 사용설명서를 확인해야 함.",
+  "source": {
+    "name": "다나와 가격비교 (제조사 스펙 게시)",
+    "url": "https://prod.danawa.com/info/?pcode=6073744",
+    "asOfDate": "2026-07-25"
+  }
+}

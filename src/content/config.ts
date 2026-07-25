@@ -20,11 +20,12 @@ const dimensionsSchema = z.object({
 const appliances = defineCollection({
   type: 'data',
   schema: z.object({
-    category: z.enum(['미니냉장고']),
+    category: z.enum(['미니냉장고', '소형세탁기', '창문형에어컨', '제습기']),
     brand: z.string(),
     model: z.string(),
-    doorType: z.string(),
-    capacityLiters: z.number(),
+    typeLabel: z.string(),
+    capacityValue: z.number(),
+    capacityUnit: z.string(),
     dimensions: dimensionsSchema,
     installClearanceNote: z.string(),
     source: z.object({

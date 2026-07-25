@@ -1,0 +1,15 @@
+{
+  "category": "창문형에어컨",
+  "brand": "파세코",
+  "model": "PWA-3200WN",
+  "typeLabel": "창문형 (자가설치)",
+  "capacityValue": 17,
+  "capacityUnit": "㎡ (5평)",
+  "dimensions": { "widthMm": 330, "heightMm": 855, "depthMm": 277 },
+  "installClearanceNote": "본체 규격과 별개로 창틀 폭·새시 형태에 맞는 설치 브라켓이 필요합니다. 정확한 설치 가능 여부는 창틀을 실측한 뒤 제품 설치가이드로 확인해야 함. 설치 가능 창틀 높이는 제조사 기준 약 92~148cm.",
+  "source": {
+    "name": "다나와 가격비교 (제조사 스펙 게시)",
+    "url": "https://prod.danawa.com/info/?pcode=11087493",
+    "asOfDate": "2026-07-25"
+  }
+}

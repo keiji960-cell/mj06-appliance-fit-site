@@ -1,0 +1,15 @@
+{
+  "category": "소형세탁기",
+  "brand": "삼성",
+  "model": "WA30F1K4QSB",
+  "typeLabel": "통돌이 (아가사랑, 단독 설치형)",
+  "capacityValue": 3,
+  "capacityUnit": "kg",
+  "dimensions": { "widthMm": 450, "heightMm": 809, "depthMm": 540 },
+  "installClearanceNote": "공식 지원 페이지에 설치 여백 수치는 별도 기재되지 않음 — 급수·배수 호스 연결 공간이 별도로 필요하며, 진동 저감을 위해 벽면에 완전히 밀착시키지 않는 것이 일반적으로 권장됨. 정확한 설치 여백은 제품 사용설명서를 확인해야 함.",
+  "source": {
+    "name": "삼성전자 공식 지원 페이지",
+    "url": "https://www.samsung.com/sec/support/model/WA30F1K4QSB/",
+    "asOfDate": "2026-07-25"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "category": "소형세탁기",
+  "brand": "위니아",
+  "model": "EWF03WGS(A)",
+  "typeLabel": "통돌이 (단독 설치형)",
+  "capacityValue": 3,
+  "capacityUnit": "kg",
+  "dimensions": { "widthMm": 415, "heightMm": 710, "depthMm": 445 },
+  "installClearanceNote": "공식 페이지에 설치 여백 수치는 별도 기재되지 않음 — 급수·배수 호스 연결 공간이 별도로 필요하며, 진동 저감을 위해 벽면에 완전히 밀착시키지 않는 것이 일반적으로 권장됨. 정확한 설치 여백은 제품 사용설명서를 확인해야 함.",
+  "source": {
+    "name": "위니아 공식 몰",
+    "url": "https://www.winia.com/product/view?PRODUCT_SEQ=3978&SEARCH_VALUE=EWF03WGS(A)",
+    "asOfDate": "2026-07-25"
+  }
+}

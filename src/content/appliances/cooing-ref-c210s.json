@@ -2,9 +2,14 @@
   "category": "미니냉장고",
   "brand": "쿠잉 (씨엔컴퍼니)",
   "model": "REF-C210S",
-  "doorType": "2도어 (상냉장·하냉동)",
-  "capacityLiters": 205,
-  "dimensions": { "widthMm": 540, "heightMm": 1440, "depthMm": 550 },
+  "typeLabel": "2도어 (상냉장·하냉동)",
+  "capacityValue": 205,
+  "capacityUnit": "L",
+  "dimensions": {
+    "widthMm": 540,
+    "heightMm": 1440,
+    "depthMm": 550
+  },
   "installClearanceNote": "다나와 스펙 페이지에 설치 여백 수치는 별도 기재되지 않음 — 방열을 위해 상단·후면·측면에 최소 50~100mm 여유 공간을 두는 것이 일반적으로 권장되며, 정확한 수치는 제품 사용설명서를 확인해야 함. (냉장실 153L + 냉동실 52L 구성)",
   "source": {
     "name": "다나와 가격비교 (제조사 스펙 게시)",
