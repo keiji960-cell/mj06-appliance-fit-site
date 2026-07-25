@@ -1,0 +1,15 @@
+{
+  "category": "창문형에어컨",
+  "brand": "삼성",
+  "model": "AW06C7155TWAZ",
+  "typeLabel": "창문형 (비스포크 무풍 윈도우핏, 자가설치)",
+  "capacityValue": 19.2,
+  "capacityUnit": "㎡ (6평)",
+  "dimensions": { "widthMm": 402, "heightMm": 750, "depthMm": 288 },
+  "installClearanceNote": "본체 규격과 별개로 창틀 폭·새시 형태에 맞는 설치 브라켓이 필요합니다. 정확한 설치 가능 여부는 창틀을 실측한 뒤 제품 설치가이드로 확인해야 함. 설치 가능 창틀 높이는 제조사 기준 약 90~145cm.",
+  "source": {
+    "name": "다나와 가격비교 (제조사 스펙 게시)",
+    "url": "https://prod.danawa.com/info/?pcode=19996307",
+    "asOfDate": "2026-07-25"
+  }
+}

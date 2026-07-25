@@ -1,0 +1,15 @@
+{
+  "category": "소형세탁기",
+  "brand": "에코웰",
+  "model": "XPB35-918S",
+  "typeLabel": "통돌이 (미니스핀 플러스, 단독 설치형)",
+  "capacityValue": 3.5,
+  "capacityUnit": "kg",
+  "dimensions": { "widthMm": 580, "heightMm": 690, "depthMm": 360 },
+  "installClearanceNote": "다나와 스펙 페이지에 설치 여백 수치는 별도 기재되지 않음 — 급수·배수 호스 연결 공간이 별도로 필요하며, 진동 저감을 위해 벽면에 완전히 밀착시키지 않는 것이 일반적으로 권장됨. 정확한 설치 여백은 제품 사용설명서를 확인해야 함.",
+  "source": {
+    "name": "다나와 가격비교 (제조사 스펙 게시)",
+    "url": "https://prod.danawa.com/info/?pcode=2149201",
+    "asOfDate": "2026-07-25"
+  }
+}
