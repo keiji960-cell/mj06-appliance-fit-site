@@ -5,7 +5,7 @@
   "doorType": "1도어 (냉장+냉동 겸용)",
   "capacityLiters": 87,
   "dimensions": { "widthMm": 470, "heightMm": 837, "depthMm": 492 },
-  "installClearanceNote": "공식 페이지에 설치 여백 수치는 별도 기재되지 않음 — 방열을 위해 상단·후면·측면에 최소 5~10cm 여유 공간을 두는 것이 일반적으로 권장되며, 정확한 수치는 제품 사용설명서를 확인해야 함. (냉장실 61L + 냉동실 26L 구성)",
+  "installClearanceNote": "공식 페이지에 설치 여백 수치는 별도 기재되지 않음 — 방열을 위해 상단·후면·측면에 최소 50~100mm 여유 공간을 두는 것이 일반적으로 권장되며, 정확한 수치는 제품 사용설명서를 확인해야 함. (냉장실 61L + 냉동실 26L 구성)",
   "source": {
     "name": "위니아 공식 몰",
     "url": "https://www.winia.com/product/view?PRODUCT_SEQ=3522",

@@ -26,22 +26,22 @@ const maxCapacity = appliances[appliances.length - 1]?.data.capacityLiters ?? 0;
 
   <section class="fit-form" id="fit-form">
     <h2 style="margin-top:0;border-top:none;padding-top:0;">우리집 자리 치수 입력</h2>
-    <p class="fit-hint">가전을 놓을 자리의 <strong>최대 허용 치수</strong>(벽·가구 사이 여유 공간)를 cm 단위로 입력하세요. 아는 값만 입력해도 됩니다.</p>
+    <p class="fit-hint">가전을 놓을 자리의 <strong>최대 허용 치수</strong>(벽·가구 사이 여유 공간)를 mm 단위로 입력하세요. 아래 표의 규격과 같은 단위라 그대로 비교할 수 있습니다. 아는 값만 입력해도 됩니다.</p>
     <div class="fit-form-grid">
       <div class="fit-field">
-        <label for="input-width">폭 (cm)</label>
-        <input type="number" id="input-width" inputmode="decimal" min="0" placeholder="예: 50" />
+        <label for="input-width">폭 (mm)</label>
+        <input type="number" id="input-width" inputmode="decimal" min="0" step="1" placeholder="예: 500" />
       </div>
       <div class="fit-field">
-        <label for="input-depth">깊이 (cm)</label>
-        <input type="number" id="input-depth" inputmode="decimal" min="0" placeholder="예: 55" />
+        <label for="input-depth">깊이 (mm)</label>
+        <input type="number" id="input-depth" inputmode="decimal" min="0" step="1" placeholder="예: 550" />
       </div>
       <div class="fit-field">
-        <label for="input-height">높이 (cm)</label>
-        <input type="number" id="input-height" inputmode="decimal" min="0" placeholder="예: 120" />
+        <label for="input-height">높이 (mm)</label>
+        <input type="number" id="input-height" inputmode="decimal" min="0" step="1" placeholder="예: 1200" />
       </div>
     </div>
-    <p class="fit-hint">※ 위 수치는 벽·가구와 부딪히지 않는 "최대 허용 치수"만 걸러줍니다. 방열을 위한 여유 공간(보통 상단·후면 5~10cm)은 별도로 고려해야 하며, 정확한 여유 공간은 각 모델 상세페이지·사용설명서를 확인하세요.</p>
+    <p class="fit-hint">※ 위 수치는 벽·가구와 부딪히지 않는 "최대 허용 치수"만 걸러줍니다. 방열을 위한 여유 공간(보통 상단·후면 50~100mm)은 별도로 고려해야 하며, 정확한 여유 공간은 각 모델 상세페이지·사용설명서를 확인하세요.</p>
     <button type="button" class="fit-reset" id="fit-reset">입력 초기화</button>
     <p class="fit-status" id="fit-status" role="status"></p>
   </section>
@@ -112,17 +112,17 @@ const maxCapacity = appliances[appliances.length - 1]?.data.capacityLiters ?? 0;
   const status = document.getElementById('fit-status') as HTMLParagraphElement;
   const rows = Array.from(document.querySelectorAll('#fit-table tbody tr')) as HTMLTableRowElement[];
 
-  function cmToMm(value: string): number | null {
+  function parseMm(value: string): number | null {
     if (value.trim() === '') return null;
     const n = Number(value);
     if (Number.isNaN(n) || n <= 0) return null;
-    return n * 10;
+    return n;
   }
 
   function applyFilter() {
-    const maxWidth = cmToMm(widthInput.value);
-    const maxDepth = cmToMm(depthInput.value);
-    const maxHeight = cmToMm(heightInput.value);
+    const maxWidth = parseMm(widthInput.value);
+    const maxDepth = parseMm(depthInput.value);
+    const maxHeight = parseMm(heightInput.value);
     const anyInput = maxWidth !== null || maxDepth !== null || maxHeight !== null;
 
     let matchCount = 0;

@@ -5,7 +5,7 @@
   "doorType": "1도어 (냉장전용, 집중냉장)",
   "capacityLiters": 122,
   "dimensions": { "widthMm": 545, "heightMm": 835, "depthMm": 530 },
-  "installClearanceNote": "출처 페이지에 설치 여백 수치는 별도 기재되지 않음 — 방열을 위해 상단·후면·측면에 최소 5~10cm 여유 공간을 두는 것이 일반적으로 권장되며, 정확한 수치는 제품 사용설명서를 확인해야 함. 규격은 서로 다른 두 출처에서 동일하게 확인됨.",
+  "installClearanceNote": "출처 페이지에 설치 여백 수치는 별도 기재되지 않음 — 방열을 위해 상단·후면·측면에 최소 50~100mm 여유 공간을 두는 것이 일반적으로 권장되며, 정확한 수치는 제품 사용설명서를 확인해야 함. 규격은 서로 다른 두 출처에서 동일하게 확인됨.",
   "source": {
     "name": "노써치 제품 스펙 페이지",
     "url": "https://nosearch.com/product/kitchen/mini_refrigerator/detail/WWRC121EEMWWO(A)",
