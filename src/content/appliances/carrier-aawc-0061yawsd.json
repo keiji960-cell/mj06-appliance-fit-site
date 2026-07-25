@@ -1,0 +1,15 @@
+{
+  "category": "창문형에어컨",
+  "brand": "캐리어",
+  "model": "AAWC-0061YAWSD",
+  "typeLabel": "창문형 (자가설치)",
+  "capacityValue": 18.7,
+  "capacityUnit": "㎡ (6평)",
+  "dimensions": { "widthMm": 400, "heightMm": 750, "depthMm": 295 },
+  "installClearanceNote": "본체 규격과 별개로 창틀 폭·새시 형태에 맞는 설치 브라켓이 필요합니다. 정확한 설치 가능 여부는 창틀을 실측한 뒤 제품 설치가이드로 확인해야 함.",
+  "source": {
+    "name": "다나와 가격비교 (제조사 스펙 게시)",
+    "url": "https://prod.danawa.com/info/?pcode=56061158",
+    "asOfDate": "2026-07-25"
+  }
+}

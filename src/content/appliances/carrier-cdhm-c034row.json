@@ -1,0 +1,15 @@
+{
+  "category": "제습기",
+  "brand": "캐리어",
+  "model": "CDHM-C034LROW",
+  "typeLabel": "제습기 (대용량)",
+  "capacityValue": 34,
+  "capacityUnit": "L/일",
+  "dimensions": { "widthMm": 378, "heightMm": 615, "depthMm": 266 },
+  "installClearanceNote": "다나와 스펙 페이지에 설치 여백 수치는 별도 기재되지 않음 — 흡배기구가 막히지 않도록 벽면·가구에서 일정 거리 이상 띄워 설치하는 것이 일반적으로 권장되며, 정확한 이격거리는 제품 사용설명서를 확인해야 함.",
+  "source": {
+    "name": "다나와 가격비교 (제조사 스펙 게시)",
+    "url": "https://prod.danawa.com/info/?pcode=7933447",
+    "asOfDate": "2026-07-25"
+  }
+}

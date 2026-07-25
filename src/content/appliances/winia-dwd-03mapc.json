@@ -1,0 +1,15 @@
+{
+  "category": "소형세탁기",
+  "brand": "위니아",
+  "model": "DWD-03MAPC",
+  "typeLabel": "벽걸이형 미니 세탁기 (단독 벽면 설치)",
+  "capacityValue": 3,
+  "capacityUnit": "kg",
+  "dimensions": { "widthMm": 550, "heightMm": 600, "depthMm": 292 },
+  "installClearanceNote": "벽걸이형 제품으로 바닥에 두는 다른 세탁기와 설치 방식이 다릅니다 — 벽면 고정 브라켓 및 하중을 견디는 벽체가 필요합니다. 다나와 스펙 페이지에 설치 여백 수치는 별도 기재되지 않음. 정확한 설치 조건은 제품 사용설명서를 확인해야 함.",
+  "source": {
+    "name": "다나와 가격비교 (제조사 스펙 게시)",
+    "url": "https://prod.danawa.com/info/?pcode=3520765",
+    "asOfDate": "2026-07-25"
+  }
+}
