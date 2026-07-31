@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+Sitemap: https://mj06-appliance-fit-site.vercel.app/sitemap-index.xml
